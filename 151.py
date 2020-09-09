@@ -72,7 +72,7 @@ def classify151():
     poke_model.fit(
         train_images,
         validation_data=validation_images,
-        epochs=500
+        epochs=5
     )
 
     poke_model.evaluate(validation_images, verbose=2)
