@@ -109,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="960" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602712384427">
@@ -155,11 +156,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="356" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1680.1010/-1920.0.1920.1160@0.0.2560.1400" timestamp="1602813571769" />
-    <state x="615" y="272" key="SettingsEditor" timestamp="1602797347876">
+    <state x="615" y="272" key="SettingsEditor" timestamp="1604374892048">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="461" y="225" key="SettingsEditor/0.0.1920.1160/4480.0.1680.1010/1920.0.2560.1400@0.0.1920.1160" timestamp="1599614067302" />
-    <state x="615" y="272" key="SettingsEditor/0.0.2560.1400/2560.0.1680.1010/-1920.0.1920.1160@0.0.2560.1400" timestamp="1602797347876" />
+    <state x="615" y="272" key="SettingsEditor/0.0.2560.1400/2560.0.1680.1010/-1920.0.1920.1160@0.0.2560.1400" timestamp="1604374892048" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
