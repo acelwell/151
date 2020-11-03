@@ -58,8 +58,8 @@ def classify151():
 
     print(class_names)
 
-    train_images = cacheImages(train_images)
-    validation_images = cacheImages(validation_images)
+    # train_images = cacheImages(train_images)
+    # validation_images = cacheImages(validation_images)
 
     poke_model = buildModel()
 
@@ -69,11 +69,14 @@ def classify151():
         metrics=['accuracy']
     )
 
-    poke_model.fit(
-        train_images,
-        validation_data=validation_images,
-        epochs=5
-    )
+    try:
+        poke_model.fit(
+            train_images,
+            validation_data=validation_images,
+            epochs=5
+        )
+    except:
+        print("\nwtf went wrong")
 
     poke_model.evaluate(validation_images, verbose=2)
 
@@ -83,9 +86,6 @@ def classify151():
 
 def main():
     print("hello world")
-
-    # checkPhotos()
-    # resizePhotos()
 
     classify151()
 
